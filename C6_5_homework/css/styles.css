@@ -1,0 +1,50 @@
+body {
+  background-color: gainsboro;
+}
+
+header {
+  display: flex;
+  background-color: ghostwhite;
+  justify-content: center;
+}
+
+h1 {
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: ghostwhite;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 2% 0;
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  border-color: darkred;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  background-color: ghostwhite;
+  justify-content: right;
+}
